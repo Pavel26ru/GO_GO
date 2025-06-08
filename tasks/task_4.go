@@ -1,4 +1,4 @@
-package main
+package task4
 
 import (
 	"fmt"
@@ -14,7 +14,7 @@ func countUp(mu *sync.Mutex, wg *sync.WaitGroup) {
 	fmt.Println(count)
 	mu.Unlock()
 }
-func main() {
+func TaskRun4() {
 	mu := &sync.Mutex{}
 	wg := &sync.WaitGroup{}
 

@@ -1,4 +1,4 @@
-package main
+package task6
 
 import (
 	"context"
@@ -47,7 +47,7 @@ func StartBatchProcessor(ctx context.Context, input <-chan int) {
 	}
 }
 
-func main() {
+func TaskRun6() {
 	ctx, cancel := context.WithTimeout(context.Background(), 6*time.Second)
 	defer cancel()
 

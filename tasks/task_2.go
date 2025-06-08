@@ -1,4 +1,4 @@
-package main
+package task2
 
 import (
 	"fmt"
@@ -10,7 +10,7 @@ func Gorutine(in int, wg *sync.WaitGroup) {
 	fmt.Println("Hello from goroutine", in)
 }
 
-func main() {
+func TaskRun2() {
 	wg := &sync.WaitGroup{}
 
 	for i := 1; i <= 5; i++ {

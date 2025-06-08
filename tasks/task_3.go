@@ -1,11 +1,11 @@
-package main
+package task3
 
 import (
 	"fmt"
 	"sync"
 )
 
-func main() {
+func TaskRun3() {
 	ch := make(chan int)
 	wg := sync.WaitGroup{}
 

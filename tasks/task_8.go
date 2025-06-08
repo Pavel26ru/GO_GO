@@ -1,4 +1,4 @@
-package main
+package task8
 
 import (
 	"context"
@@ -97,7 +97,7 @@ func FetchURLs(urls []string) map[string]string {
 	return result
 }
 
-func main() {
+func TaskRun8() {
 
 	urls := []string{
 		"https://example.org",

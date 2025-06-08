@@ -1,11 +1,11 @@
-package main
+package task1
 
 import (
 	"fmt"
 	"sync"
 )
 
-func main() {
+func TaskRun1() {
 	wg := sync.WaitGroup{}
 
 	wg.Add(1)
